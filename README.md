@@ -31,8 +31,6 @@
      ```bash
      hashcat --help
      hashcat -m [hash_mode] -a [attack_mode] hash1.txt [options]
-     ![hash1](https://github.com/BLTC-520/cybersecurityOct2023/assets/125104831/90806172-92c6-47cd-ad1f-cf8305c1491b)
-
      ```
 
    - Optional Parameters:
