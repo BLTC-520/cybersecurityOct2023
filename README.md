@@ -52,6 +52,7 @@ Feel free to explore and learn from the hashcat command. If needed, refer to the
 
 Good luck with your cybersecurity assignment!
 
+## Don't run inside the virtual machine as it only has 4GB RAM/8GB RAM at max. Use your fren's computer (RTX4090 / Macbook M3 MAX), as long as got graphic card, it will sped up your progression. DO IT EARLY PLEASE. (Time and device is obstacle for this assignment)
 
 
 
