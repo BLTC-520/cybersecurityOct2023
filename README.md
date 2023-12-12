@@ -1,30 +1,58 @@
-This is the whole file you need to complete your cybersecurity assignment (oct trimester). 
+# Cybersecurity Assignment Instructions
 
-Steps:
-1. git clone this whole repo to your local
-2. keep them in the same folder
-3. Open your cmd
-4. Good to go! (running hashcat command to break your files!)
+## Prerequisites
 
-The hash1-5.txt already remove the unnecessary parts. Feel free to use!
+1. **Create a GitHub Account**
+   - Visit [GitHub](https://github.com/) and sign up for an account.
 
-Very very first step, create a github account. Then download git. (Pre-req to use this) - search online resources how to download and install 
-Link here: (github tutorial)
-https://youtu.be/1ibmWyt8hfw
+2. **Download and Install Git**
+   - Follow online resources to download and install Git.
+   - [GitHub Tutorial](https://youtu.be/1ibmWyt8hfw)
 
-Then open your cmd to git clone the whole file to your local machine.
+## Getting Started
 
-After that, cmd your directory to this file. 
+1. **Clone the Repository**
+   - Open your command prompt (cmd).
+   - Run the following command to clone the repository to your local machine:
+     ```
+     git clone [repository_url]
+     ```
 
-Then start running hashcat command. 
+2. **Navigate to the Repository**
+   - Change your directory in the command prompt to the location of the cloned repository.
 
-Before I give you the answer, learn from this command: (all you need to know) 
-hashcat --help 
+## Running hashcat
 
-Example for hash1.txt
-![hash1](https://github.com/BLTC-520/cybersecurityOct2023/assets/125104831/86490d3d-e989-48ed-bae6-611cf5cfca84)
-(--keep-guessing --force) is optional 
+1. **Open Command Prompt**
+   - Launch the command prompt on your machine.
 
+2. **Execute hashcat Command**
+   - Run the hashcat command to break the hash files. Example for `hash1.txt`:
+     ```bash
+     hashcat --help
+     hashcat -m [hash_mode] -a [attack_mode] hash1.txt [options]
+     ![hash1](https://github.com/BLTC-520/cybersecurityOct2023/assets/125104831/90806172-92c6-47cd-ad1f-cf8305c1491b)
+
+     ```
+
+   - Optional Parameters:
+     - `--keep-guessing`
+     - `--force`
+
+   - Refer to `hashcat --help` for detailed information on available options.
+
+3. **Learn from Example**
+   - View the example provided for `hash1.txt` for reference.
+     ![hash1 Example](https://github.com/BLTC-520/cybersecurityOct2023/assets/125104831/86490d3d-e989-48ed-bae6-611cf5cfca84)
+
+4. **Repeat for Other Hash Files**
+   - Apply the same process for other hash files (hash2.txt to hash5.txt).
+
+## Conclusion
+
+Feel free to explore and learn from the hashcat command. If needed, refer to the hashcat documentation for further details.
+
+Good luck with your cybersecurity assignment!
 
 
 
